@@ -20,4 +20,9 @@ p{
 a{
     color: rgb(5, 212, 143);
     text-decoration: none;
+    
+}
+a:hover{
+    color: aquamarine;
+    
 }
