@@ -6,14 +6,22 @@ img{
 body{
     background-color: rgb(34, 34, 34);
     color:rgb(241, 241, 241);
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color:rgba(21, 111, 214, 0.377);
+    padding: 20px 0;
+    text-align: center;
 }
 h1{
     color: rgb(5, 212, 143);
+    font-size: larger;
 }
-h2{
-    color:white
+h2,h3{
+    font-size: medium;
 }
+p{font-size: smaller;}
+
 p{
     color: rgb(5, 212, 143);
 }
@@ -25,4 +33,21 @@ a{
 a:hover{
     color: aquamarine;
     
+}
+section{
+    padding: 20px;
+    max-width: 85%;
+margin: auto;
+background-color: rgba(37, 70, 70, 0.678);
+margin-top: 10px;
+margin-bottom: 10px;
+border-radius: 8px;
+box-shadow: 0 0 5px color(srgb red green blue);}
+blockquote{
+    font-style: italic;
+    border-left: 4px solid ;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin: 10px 0;
+
 }
